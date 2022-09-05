@@ -5,13 +5,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="suts",  # 用自己的名替换其中的YOUR_USERNAME_
-    version="0.0.1",  # 包版本号，便于维护版本
+    version="0.0.2",  # 包版本号，便于维护版本
     author="suanve",  # 作者，可以写自己的姓名
     author_email="suanwell@hotmail.com",  # 作者联系方式，可写自己的邮箱地址
     description="A small example package",  # 包的简述
     long_description=long_description,  # 包的详细介绍，一般在README.md文件内
     long_description_content_type="text/markdown",
-    url="https://github.com/suanve/sus",  # 自己项目地址，比如github的项目地址
+    url="https://github.com/suanve/suts",  # 自己项目地址，比如github的项目地址
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
